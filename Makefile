@@ -55,6 +55,9 @@ test: $(SRC) $(TEST_SRC)
 
 ### Aux ###
 
+fmt:
+	@go fmt qculture/*
+
 clean:
 	$(RM) $(OBJ)
 	$(RM) $(LIB)
